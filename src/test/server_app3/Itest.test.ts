@@ -7,7 +7,7 @@ import {
 } from "../../app/server_app/model/ServerModel";
 import { Server } from "../../app/server_app/server/Server";
 
-describe.skip("Server app integration tests", () => {
+describe("Server app integration tests", () => {
   let server: Server;
 
   beforeAll(() => {
