@@ -6,7 +6,8 @@
   "scripts": {
     "start": "ts-node src/app/server_app/Launcher.ts",
     "test": "jest",
-    "itest": "jest --config itest.config.ts"
+    "itest": "jest --config itest.config.ts",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
